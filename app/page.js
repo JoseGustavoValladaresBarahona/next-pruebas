@@ -23,7 +23,7 @@ import Head from "next/head"
         {metadata}
      </Head>
     <main className={style.main}>
-        <h1>Datos de usuario</h1>
+        <h2>Datos de usuario</h2>
         <hr />
         <Users users={users} />
     </main>
