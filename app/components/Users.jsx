@@ -1,7 +1,7 @@
 
 "use client";
 import {useRouter} from "next/navigation"
-
+import Image from "next/image"
  async function Users({users}){
    const router = useRouter()
   return(
@@ -11,8 +11,9 @@ import {useRouter} from "next/navigation"
               <div key={user.id}
                 onClick={()=> router.push(`/users/${user.id}`)}
                  >
-                 <img src="/promoglobal.png" alt="foto"
+                 <Image src="/promoglobal.png" alt="foto"
                   width={200}
+                  height={210}
                   />
                   <p><strong>Nombre: </strong>{user.name}</p>
                 </div>
