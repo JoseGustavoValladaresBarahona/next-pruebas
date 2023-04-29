@@ -14,9 +14,9 @@ import Image from "next/image"
             {
                <div key={user.id}>
                 <div>
-              <Image src="/promoglobal.png" alt="foto"
-                  width={200}
-                  height={210}
+              <Image src="/user.png" alt="foto"
+                  width={100}
+                  height={100}
                   />
                   <p><strong>Nombre: </strong>{user.name}</p>
                    <p><strong>Nombre de usuario: </strong>{user.username}</p>

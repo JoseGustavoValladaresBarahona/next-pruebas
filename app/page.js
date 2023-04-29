@@ -5,7 +5,7 @@ import style from './globals.css'
 import Users from "@/app/components/Users"
 import Head from "next/head"
 
- export const metadata = {
+ export const metadata= {
   title: 'Home',
   description: 'Web',
 }
