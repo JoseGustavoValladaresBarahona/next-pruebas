@@ -10,3 +10,7 @@
   color:white;
   text-decoration: none;
 }
+
+.Link:hover{
+  color: lightblue;
+}
